@@ -18,8 +18,8 @@ jobs:
       - name: Generate Snake
         uses: Platane/snk@v2
         with:
-          github_user_name: woosungking
-          outputs: dist/snake.svg
+          github_user_name: woosungking # GitHub 사용자 이름
+          output: dist/snake.svg # 단수형으로 변경
 
       - name: Push the Snake
         uses: crazy-max/ghaction-github-pages@v2.1.3
